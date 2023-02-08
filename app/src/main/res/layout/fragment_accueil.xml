@@ -38,6 +38,7 @@
                 android:drawablePadding="10dp"
                 android:ems="10"
                 android:hint="Rechercher sur AmaFake.urss"
+                android:text="@{avm.search}"
                 android:inputType="textPersonName"
                 android:padding="5dp"
                 android:textAlignment="textStart"

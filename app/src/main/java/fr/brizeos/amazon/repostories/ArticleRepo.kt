@@ -13,4 +13,7 @@ interface ArticleRepo {
      @GET("products")
      fun getListLimited(@Query("limit") limit :Int) :Call<List<Article>>
 
+     @GET("products")
+     fun getAll() :Call<List<Article>>
+
 }
