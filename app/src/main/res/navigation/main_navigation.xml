@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/accueilFragment">
+
+    <fragment
+        android:id="@+id/accueilFragment"
+        android:name="fr.brizeos.amazon.ui.dashboard.main.accueil.AccueilFragment"
+        android:label="Accueil"
+        tools:layout="@layout/fragment_accueil"/>
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="fr.brizeos.amazon.ui.dashboard.main.profil.ProfilFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profil"/>
+</navigation>
